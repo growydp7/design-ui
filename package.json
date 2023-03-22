@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "react": "^18.2.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@design-ui/components": "workspace:^1.0.0",
+    "@design-ui/core": "workspace:^1.0.0",
+    "@design-ui/shared": "workspace:^1.0.0"
+  }
+}
