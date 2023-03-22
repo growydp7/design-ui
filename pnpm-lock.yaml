@@ -8,14 +8,22 @@ importers:
       '@design-ui/core': workspace:^1.0.0
       '@design-ui/shared': workspace:^1.0.0
       '@types/node': ^18.15.5
+      '@types/react': ^18.0.28
+      '@types/react-dom': ^18.0.11
+      classnames: ^2.3.2
       react: ^18.2.0
+      react-dom: ^18.2.0
       typescript: ^5.0.2
     dependencies:
       '@design-ui/components': link:packages/components
       '@design-ui/core': link:packages/core
       '@design-ui/shared': link:packages/shared
+      classnames: 2.3.2
+      react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@types/node': 18.15.5
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
       react: 18.2.0
       typescript: 5.0.2
 
@@ -585,6 +593,10 @@ packages:
       escape-string-regexp: 1.0.5
       supports-color: 5.5.0
     dev: true
+
+  /classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
+    dev: false
 
   /color-convert/1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
