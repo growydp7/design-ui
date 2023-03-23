@@ -6,9 +6,6 @@
     },
     {
       "path": "./tsconfig.play.json"
-    },
-    {
-      "path": "./tsconfig.vitest.json"
     }
   ]
 }
