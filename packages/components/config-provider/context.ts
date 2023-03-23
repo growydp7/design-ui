@@ -5,6 +5,7 @@ export const defaultIconPrefixCls = 'designicon';
 export interface ConfigConsumerProps {
   iconPrefixCls: string;
   getPrefixCls: (suffixCls?: string, customizePrefixCls?: string) => string;
+  autoInsertSpaceInButton?: boolean;
 }
 
 const defaultGetPrefixCls = (suffixCls?: string, customizePrefixCls?: string) => {
